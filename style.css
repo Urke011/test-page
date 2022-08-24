@@ -1,0 +1,177 @@
+
+.right-nav-links a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 1em;
+}
+.under-nav-back-img{
+    position: relative;
+
+}
+.under-nav-back-img img{
+    width: 100%;
+    height: calc(190px + (1200) * ((100vw - 300px) / (3000)));
+    clip-path: polygon(15% 0%, 85% 0%, 100% 0%, 100% 100%, 100% 87%, 0% 100%, 0% 85%, 0% 0%);
+
+}
+.list-teams-links{
+
+}
+.btn-links button{
+    margin-right: 1em;
+}
+.main-title {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+
+}
+.main-title span{
+    color:  #C5003E;
+}
+
+.btn-links button{
+    width: 8em;
+}
+.main-section{
+    background-color: #C5003E;
+}
+.list-teams-links{
+    margin-left: 3em;
+    margin-top: 1em;
+}
+.list-teams-links p,
+.list-teams-links h3{
+    color: white;
+}
+.list-teams-links p:first-child{
+    background-color: white;
+    color: #C5003E;
+    width: fit-content;
+    font-weight: bold;
+}
+.list-team-img{
+    position: relative;
+}
+.list-team-img img{
+    width: 32em;
+}
+.list-all-teams ul li a{
+    text-decoration: none;
+    color: #ff6666;
+}
+.list-team-img p{
+    background-color: white;
+    position: absolute;
+    color: black;
+    font-weight: bolder;
+    width: fit-content;
+    padding: 1em;
+    top: 92%;
+    left: 4%;
+    transform: translateY(-92%);
+    clip-path: polygon(5.7% 0.8%, 100% 0%, 96.1% 100%, 0% 100%);
+}
+.list-all-teams ul{
+    color: #ff6666;
+    list-style: none;
+}
+.list-all-teams ul li a:hover{
+    color: white;
+}
+.list-all-teams{
+    align-self: center;
+}
+.list-all-teams ul li {
+    padding-bottom: 1.5em;
+
+}
+
+
+
+
+#pic.p1 {
+    background-image: url("https://mathema.de/images/headers/embedded_test_ohne.jpg");
+}
+#pic.p2 {
+    background-image: url("https://mathema.de/images/headers/mobile_test.jpg");
+}
+#pic.p3 {
+    background-image: url("https://mathema.de/images/headers/Martin_Grotz_Meditation_Header.png");
+}
+#pic.p4 {
+    background-image: url("https://mathema.de/images/headers/macro-gd59a60348_1920.jpg");
+}
+
+
+
+
+
+
+
+
+
+h1 {
+    font-size: calc(32px + (85 - 28) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(40px + (92 - 36) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h2 {
+    font-size: calc(24px + (54 - 24) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(32px + (62 - 32) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h3 {
+    font-size: calc(18px + (36 - 18) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(24px + (42 - 24) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h4 {
+    font-size: calc(16px + (24 - 15) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(22px + (32 - 24) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h5 {
+    font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(20px + (22 - 20) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h6 {
+    font-size: calc(16px + (18 - 16) * ((100vw - 800px) / (2000 - 800)));
+    line-height: calc(20px + (24 - 20) * ((100vw - 800px) / (2000 - 800)));
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: calc(27px + (85 - 28) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(35px + (92 - 36) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h2 {
+        font-size: calc(21px + (54 - 24) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(27px + (62 - 32) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h3 {
+        font-size: calc(18px + (36 - 18) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(23px + (42 - 24) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h4 {
+        font-size: calc(17px + (24 - 15) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(22px + (32 - 24) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h5 {
+        font-size: calc(16px + (18 - 14) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(20px + (22 - 20) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h6 {
+        font-size: calc(15px + (18 - 16) * ((100vw - 800px) / (2000 - 800)));
+        line-height: calc(20px + (24 - 20) * ((100vw - 800px) / (2000 - 800)));
+    }
+}
